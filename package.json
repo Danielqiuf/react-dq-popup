@@ -1,0 +1,30 @@
+{
+  "name": "react-dq-popup",
+  "author": "daniel-qiu/qiuWenFeng",
+  "version": "0.0.15",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "./dist/react-dq-popup.js",
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^3.0.2",
+    "vite-plugin-dts": "^1.4.0"
+  },
+  "dependencies": {
+    "mitt": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "tsc && vite build -w",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "types": "./dist/index.d.ts",
+  "module": "./dist/react-dq-popup.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-dq-popup.js"
+    }
+  }
+}
